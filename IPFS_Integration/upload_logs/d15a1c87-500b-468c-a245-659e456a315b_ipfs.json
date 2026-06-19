@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-03-11T08:57:08.875483",
+  "session_id": "d15a1c87-500b-468c-a245-659e456a315b",
+  "original_filename": "WhatsApp Image 2026-03-10 at 9.48.03 AM.jpeg",
+  "encrypted_filename": "encrypted_WhatsApp Image 2026-03-10 at 9.48.03 AM.jpeg",
+  "ipfs_hash": "bafybeiczh2uem2l2veqjovbbkxuiyzapzixdcxaxb6e4lep2xzc7lit73i",
+  "gateway_url": "https://gateway.pinata.cloud/ipfs/bafybeiczh2uem2l2veqjovbbkxuiyzapzixdcxaxb6e4lep2xzc7lit73i",
+  "pinata_url": "https://app.pinata.cloud/pinmanager?search=bafybeiczh2uem2l2veqjovbbkxuiyzapzixdcxaxb6e4lep2xzc7lit73i",
+  "file_size": 398159,
+  "encryption_details": {
+    "algorithm": "Manual Upload",
+    "timestamp": 1773219416.0165286
+  }
+}

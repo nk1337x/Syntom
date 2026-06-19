@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-02-01T05:28:16.451404",
+  "session_id": "0f0601bf-8083-489d-8156-3581a29448ce",
+  "original_filename": "Nidhin S DOB2007.png",
+  "encrypted_filename": "encrypted_Nidhin S DOB2007.png",
+  "ipfs_hash": "bafkreiaouvdfdjnvnzrk5qzimn66uisvtusovirg4wu54frcf5qxunjkp4",
+  "gateway_url": "https://gateway.pinata.cloud/ipfs/bafkreiaouvdfdjnvnzrk5qzimn66uisvtusovirg4wu54frcf5qxunjkp4",
+  "pinata_url": "https://app.pinata.cloud/pinmanager?search=bafkreiaouvdfdjnvnzrk5qzimn66uisvtusovirg4wu54frcf5qxunjkp4",
+  "file_size": 57742,
+  "encryption_details": {
+    "algorithm": "XOR Demo (Fallback)",
+    "timestamp": 1769923687.4347584
+  }
+}

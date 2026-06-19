@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-03-17T17:43:11.122083",
+  "session_id": "f45e0776-5851-4edf-b750-4c72b4c834c7",
+  "original_filename": "img.jpg",
+  "encrypted_filename": "encrypted_img.jpg",
+  "ipfs_hash": "bafkreid7lq6xegxb5kt6qk2z42owm5bbojgdnenzkccfoo3xkc4hzdjlbq",
+  "gateway_url": "https://gateway.pinata.cloud/ipfs/bafkreid7lq6xegxb5kt6qk2z42owm5bbojgdnenzkccfoo3xkc4hzdjlbq",
+  "pinata_url": "https://app.pinata.cloud/pinmanager?search=bafkreid7lq6xegxb5kt6qk2z42owm5bbojgdnenzkccfoo3xkc4hzdjlbq",
+  "file_size": 106776,
+  "encryption_details": {
+    "algorithm": "Manual Upload",
+    "timestamp": 1773769386.1676345
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-02-01T08:57:34.301710",
+  "session_id": "53496000-3322-432e-be22-1f78fcc7d4cb",
+  "original_filename": "Abhishek-Sharma.jpg",
+  "encrypted_filename": "encrypted_Abhishek-Sharma.jpg",
+  "ipfs_hash": "bafkreicwv7gpu5p3f64vfsjmq775iwkaxx2anlwl7sdlxnmbd4awvzagoa",
+  "gateway_url": "https://gateway.pinata.cloud/ipfs/bafkreicwv7gpu5p3f64vfsjmq775iwkaxx2anlwl7sdlxnmbd4awvzagoa",
+  "pinata_url": "https://app.pinata.cloud/pinmanager?search=bafkreicwv7gpu5p3f64vfsjmq775iwkaxx2anlwl7sdlxnmbd4awvzagoa",
+  "file_size": 31015,
+  "encryption_details": {
+    "algorithm": "Manual Upload",
+    "timestamp": 1769936245.9824479
+  }
+}

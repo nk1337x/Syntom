@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-03-08T16:55:30.031132",
+  "session_id": "a46000a4-ee2a-4fb8-b81c-40c17def3d92",
+  "original_filename": "Screenshot 2026-03-06 104445.png",
+  "encrypted_filename": "encrypted_Screenshot 2026-03-06 104445.png",
+  "ipfs_hash": "bafkreifmp5htfn2dkdk24tf7drv4qzlcuptggx5vdeodfq6cjkhwwdezhm",
+  "gateway_url": "https://gateway.pinata.cloud/ipfs/bafkreifmp5htfn2dkdk24tf7drv4qzlcuptggx5vdeodfq6cjkhwwdezhm",
+  "pinata_url": "https://app.pinata.cloud/pinmanager?search=bafkreifmp5htfn2dkdk24tf7drv4qzlcuptggx5vdeodfq6cjkhwwdezhm",
+  "file_size": 136410,
+  "encryption_details": {
+    "algorithm": "Manual Upload",
+    "timestamp": 1772988922.6577601
+  }
+}

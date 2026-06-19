@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-03-27T15:37:23.499913",
+  "session_id": "63e704d2-5625-4158-a976-0b04b9741539",
+  "original_filename": "lorem.jpg",
+  "encrypted_filename": "encrypted_lorem.jpg",
+  "ipfs_hash": "bafkreictsf53rjc2ccvakarlrg7jk5s34mzqvpearkulwvv7itbma57dae",
+  "gateway_url": "https://gateway.pinata.cloud/ipfs/bafkreictsf53rjc2ccvakarlrg7jk5s34mzqvpearkulwvv7itbma57dae",
+  "pinata_url": "https://app.pinata.cloud/pinmanager?search=bafkreictsf53rjc2ccvakarlrg7jk5s34mzqvpearkulwvv7itbma57dae",
+  "file_size": 11147,
+  "encryption_details": {
+    "algorithm": "Manual Upload",
+    "timestamp": 1774625840.9269516
+  }
+}
