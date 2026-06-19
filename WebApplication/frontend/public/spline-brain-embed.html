@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spline — Brain embed (standalone)</title>
+  <style>
+    html,body{height:100%;margin:0}
+    .spline-container{width:100%;height:100vh;display:block;background:#000}
+    /* ensure the canvas fills the container */
+    .spline-canvas{width:100%;height:100%;display:block}
+    .note{position:fixed;left:12px;bottom:12px;padding:8px 10px;background:rgba(0,0,0,0.6);color:#fff;border-radius:6px;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial}
+  </style>
+</head>
+<body>
+  <div class="spline-container" id="spline-root">
+    <canvas id="spline-canvas" class="spline-canvas"></canvas>
+  </div>
+  <div class="note">Spline scene: <strong>prod.spline.design/qFDyStM8I34dJ80q</strong></div>
+
+  <script type="module">
+    // Minimal standalone loader for the Spline scene used on Zander Labs' homepage.
+    // Copy this file into another project/folder and open it in a modern browser.
+    const SCENE_URL = 'https://prod.spline.design/qFDyStM8I34dJ80q/scene.splinecode';
+
+    try {
+      // Import Spline runtime from CDN (ES module)
+      const mod = await import('https://cdn.jsdelivr.net/npm/@splinetool/runtime/build/runtime.js');
+      // Some bundlings export default, some export named; handle both.
+      const Runtime = mod.default ?? mod;
+
+      const canvas = document.getElementById('spline-canvas');
+      // Create application bound to the canvas
+      const app = new Runtime.Application(canvas);
+
+      // Load the public scene URL
+      await app.load(SCENE_URL);
+      console.log('Spline scene loaded:', SCENE_URL);
+
+      // Resize helper: fit the canvas to its parent element
+      const resize = () => {
+        const rect = canvas.parentElement.getBoundingClientRect();
+        app.resize(rect.width, rect.height);
+      };
+
+      // Initial resize and window resize handler
+      resize();
+      window.addEventListener('resize', resize, {passive:true});
+
+      // Expose API for debugging/control (optional)
+      window.splineApp = app; // app.scene / app.findObjectById(...) etc.
+
+    } catch (err) {
+      console.error('Failed to load Spline runtime or scene:', err);
+      const root = document.getElementById('spline-root');
+      root.innerHTML = '<div style="color:#fff;padding:24px;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial">Failed to load Spline scene. See console for details.</div>';
+    }
+  </script>
+</body>
+</html>
