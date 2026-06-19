@@ -1,0 +1,3 @@
+"""
+EEG Brainwaves Module
+"""
