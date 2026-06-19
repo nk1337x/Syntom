@@ -46,6 +46,4 @@ cd IPFS_Integration && python test_pinata.py
 - qiskit (quantum protocols)
 - cryptography, requests, python-dotenv
 
-## License
 
-Proprietary - BrainWaveCrypt Project
