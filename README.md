@@ -1,4 +1,4 @@
-# BrainWaveCrypt
+# Syntom
 
 A cutting-edge cryptographic framework combining post-quantum cryptography, EEG biometrics, and quantum-resistant security protocols.
 
